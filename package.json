@@ -1,0 +1,64 @@
+{
+  "name": "assignment-m11",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.0",
+    "@headlessui/react": "^1.4.1",
+    "@tailwindcss/forms": "^0.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^9",
+    "axios": "^0.24.0",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "firebase": "^9.2.0",
+    "firebase-tools": "^10.2.2",
+    "html-to-draftjs": "^1.5.0",
+    "init": "^0.1.2",
+    "postcss": "^7",
+    "react": "^17.0.2",
+    "react-avatar-editor": "^12.0.0",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.18.0",
+    "react-icons": "^4.3.1",
+    "react-paginate": "^8.1.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^5.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "tailwindcss-cli": "^0.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
